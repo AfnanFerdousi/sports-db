@@ -9,8 +9,27 @@
 </head>
 <body>
     <div class="container">
-        <div class="text-center">
-            <h1>Sports DB</h1>
+        <div class="row w-100 m-auto">
+            <div class="col-md-6 m-auto">
+                <div class="text-center">
+                    <h1>left side</h1>
+                    <div class="input-group mb-3">
+                    <input id="search-box" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button onclick="allPlayers()" class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+                <div id="player-container" class="player-container">                    
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="text-center">
+                    <h1>Right side</h1>
+                   <div id="details-container" class="details-container">
+                       
+                   </div>
+                </div>
+            </div>
         </div>
     </div>
 
